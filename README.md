@@ -29,14 +29,14 @@ A calorie tracking web application built with React 19 and TypeScript. Users can
 
 ## Tech Stack
 
-| Technology | Version | Purpose |
-|------------|---------|---------|
-| [React](https://react.dev/) | 19 | UI library |
-| [TypeScript](https://www.typescriptlang.org/) | ~6.0 | Static typing |
-| [Vite](https://vite.dev/) | 8 | Build tool & dev server |
-| [Tailwind CSS](https://tailwindcss.com/) | 4 | Utility-first styling |
-| [Heroicons](https://heroicons.com/) | 2 | SVG icon set |
-| [uuid](https://github.com/uuidjs/uuid) | 14 | Unique ID generation |
+| Technology                                    | Version | Purpose                 |
+| --------------------------------------------- | ------- | ----------------------- |
+| [React](https://react.dev/)                   | 19      | UI library              |
+| [TypeScript](https://www.typescriptlang.org/) | ~6.0    | Static typing           |
+| [Vite](https://vite.dev/)                     | 8       | Build tool & dev server |
+| [Tailwind CSS](https://tailwindcss.com/)      | 4       | Utility-first styling   |
+| [Heroicons](https://heroicons.com/)           | 2       | SVG icon set            |
+| [uuid](https://github.com/uuidjs/uuid)        | 14      | Unique ID generation    |
 
 ---
 
@@ -80,12 +80,12 @@ npm install
 
 ### Available Scripts
 
-| Script | Description |
-|--------|-------------|
-| `npm run dev` | Start the development server (HMR enabled) |
-| `npm run build` | Type-check and build for production |
-| `npm run preview` | Preview the production build locally |
-| `npm run lint` | Run ESLint across the project |
+| Script            | Description                                |
+| ----------------- | ------------------------------------------ |
+| `npm run dev`     | Start the development server (HMR enabled) |
+| `npm run build`   | Type-check and build for production        |
+| `npm run preview` | Preview the production build locally       |
+| `npm run lint`    | Run ESLint across the project              |
 
 ---
 
@@ -106,7 +106,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 > Built as a learning project to practise React hooks, TypeScript typing patterns, and state management with `useReducer`.
-  {
+> {
+
     files: ['**/*.{ts,tsx}'],
     extends: [
       // Other configs...
@@ -127,9 +128,11 @@ This project is open-source and available under the [MIT License](LICENSE).
       },
       // other options...
     },
-  },
+
+},
 ])
-```
+
+````
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
@@ -158,4 +161,4 @@ export default defineConfig([
     },
   },
 ])
-```
+````
